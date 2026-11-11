@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-labelledby="drNovoTitle drNovoDesc">
+  <title id="drNovoTitle">Dr. Novo</title>
+  <desc id="drNovoDesc">Friendly green Novogene-style character with goggles and scarf</desc>
+
+  <!-- Soft ground shadow -->
+  <ellipse cx="100" cy="205" rx="42" ry="8" fill="#003366" opacity="0.08"/>
+
+  <!-- Legs -->
+  <ellipse cx="78" cy="178" rx="18" ry="22" fill="#8FD63A"/>
+  <ellipse cx="122" cy="178" rx="18" ry="22" fill="#8FD63A"/>
+  <ellipse cx="78" cy="190" rx="16" ry="10" fill="#7BC22E"/>
+  <ellipse cx="122" cy="190" rx="16" ry="10" fill="#7BC22E"/>
+
+  <!-- Arms -->
+  <ellipse cx="48" cy="128" rx="16" ry="22" fill="#8FD63A" transform="rotate(-18 48 128)"/>
+  <ellipse cx="152" cy="128" rx="16" ry="22" fill="#8FD63A" transform="rotate(18 152 128)"/>
+
+  <!-- Body -->
+  <ellipse cx="100" cy="130" rx="58" ry="62" fill="#A2E53F"/>
+  <ellipse cx="100" cy="145" rx="34" ry="38" fill="#F4F7E8"/>
+
+  <!-- Body highlight -->
+  <ellipse cx="78" cy="108" rx="14" ry="18" fill="#C8F57A" opacity="0.7"/>
+
+  <!-- Head / upper body merge -->
+  <ellipse cx="100" cy="88" rx="52" ry="48" fill="#A2E53F"/>
+
+  <!-- Antenna -->
+  <line x1="100" y1="42" x2="100" y2="22" stroke="#7BC22E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="16" r="8" fill="#A2E53F"/>
+  <circle cx="97" cy="13" r="2.5" fill="#C8F57A"/>
+
+  <!-- Cheeks -->
+  <ellipse cx="68" cy="98" rx="8" ry="5" fill="#FF9AA8" opacity="0.75"/>
+  <ellipse cx="132" cy="98" rx="8" ry="5" fill="#FF9AA8" opacity="0.75"/>
+
+  <!-- Eyes -->
+  <ellipse cx="82" cy="88" rx="10" ry="12" fill="#1A1A1A"/>
+  <ellipse cx="118" cy="88" rx="10" ry="12" fill="#1A1A1A"/>
+  <circle cx="78" cy="83" r="3.2" fill="#FFFFFF"/>
+  <circle cx="114" cy="83" r="3.2" fill="#FFFFFF"/>
+  <circle cx="85" cy="92" r="1.4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="121" cy="92" r="1.4" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Smile -->
+  <path d="M90 104 Q100 114 110 104" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="100" cy="108" rx="5" ry="3.5" fill="#E85A6A" opacity="0.85"/>
+
+  <!-- Goggles (on forehead) -->
+  <g transform="translate(0 -4)">
+    <rect x="62" y="58" width="76" height="10" rx="4" fill="#F5F7FA"/>
+    <circle cx="78" cy="62" r="16" fill="#F5F7FA" stroke="#E4E8EE" stroke-width="2"/>
+    <circle cx="122" cy="62" r="16" fill="#F5F7FA" stroke="#E4E8EE" stroke-width="2"/>
+    <circle cx="78" cy="62" r="11" fill="#2C3642"/>
+    <circle cx="122" cy="62" r="11" fill="#2C3642"/>
+    <path d="M70 58 Q78 52 86 58" fill="none" stroke="#8FD6FF" stroke-width="2" opacity="0.7"/>
+    <path d="M114 58 Q122 52 130 58" fill="none" stroke="#8FD6FF" stroke-width="2" opacity="0.7"/>
+    <rect x="94" y="58" width="12" height="6" rx="2" fill="#D7DDE5"/>
+  </g>
+
+  <!-- Scarf -->
+  <path d="M55 118 C70 108 130 108 145 118 C148 128 140 138 100 136 C60 138 52 128 55 118 Z" fill="#F28C1D"/>
+  <path d="M62 120 C78 112 122 112 138 120 C136 126 120 130 100 128 C80 130 64 126 62 120 Z" fill="#E4572E"/>
+  <path d="M70 122 C85 116 115 116 130 122" fill="none" stroke="#FFB14A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Scarf tails -->
+  <path d="M128 128 C138 140 148 162 142 176 C136 170 130 150 124 136 Z" fill="#F28C1D"/>
+  <path d="M124 136 C132 148 138 164 134 174" fill="none" stroke="#E4572E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M118 130 C124 142 128 156 126 168" fill="none" stroke="#FFB14A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Maple leaf on scarf -->
+  <g transform="translate(136 148) rotate(18)">
+    <path d="M0 -10 C4 -6 8 -2 6 4 C10 2 12 6 8 10 C4 8 2 12 0 14 C-2 12 -4 8 -8 10 C-12 6 -10 2 -6 4 C-8 -2 -4 -6 0 -10 Z" fill="#E4572E"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#C43D1C" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

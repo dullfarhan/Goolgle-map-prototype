@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melbourne Sample Drop-off Centre | Sample Submission Guidelines</title>
+  <meta name="description" content="Find our Melbourne sample drop-off location and learn how to submit your samples safely and conveniently.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sample Submission Guidelines</a></li>
+          <li aria-current="page">Melbourne Sample Drop-off</li>
+        </ol>
+      </nav>
+
+      <div class="page-intro">
+        <div class="page-intro__text">
+          <h1>Melbourne Sample Drop-off Centre</h1>
+          <p>
+            Find our Melbourne sample drop-off location and learn how to submit
+            your samples safely and conveniently.
+          </p>
+        </div>
+
+        <!-- Dr. Novo SVG: add class "dr-novo-disabled" on <body> to hide -->
+        <aside class="dr-novo" aria-label="Dr. Novo character">
+          <div class="dr-novo__figure">
+            <img
+              class="dr-novo__img"
+              src="assets/dr-novo.svg"
+              alt="Dr. Novo, friendly Novogene-style guide character"
+              width="140"
+              height="154"
+            >
+          </div>
+          <p
+            id="dr-novo-speech"
+            class="dr-novo__speech"
+            role="status"
+            aria-live="polite"
+            data-typewriter="Hi! I'm Dr. Novo. Let me help you find our Melbourne sample drop-off centre."
+          ></p>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">Sample Submission Guidelines</p>
+          <h2 id="hero-heading">Drop Off Your Samples in Melbourne</h2>
+          <p class="hero__lead">
+            Visit our Melbourne sample drop-off centre for convenient sample submission.
+          </p>
+          <a class="btn btn--primary" href="#map-section">View Drop-off Location</a>
+        </div>
+        <div class="hero__panel" aria-hidden="true">
+          <div class="hero__panel-mark"></div>
+          <p class="hero__panel-label">Melbourne</p>
+          <p class="hero__panel-sub">Sample Drop-off Centre</p>
+          <p class="hero__panel-sample">Sample demo location</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructions -->
+    <section class="section instructions" aria-labelledby="instructions-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="instructions-heading">How to Drop Off Your Samples</h2>
+          <p>
+            Follow these general steps. Details below use sample demo content for this prototype.
+          </p>
+        </div>
+
+        <ol class="instruction-cards">
+          <li class="card instruction-card">
+            <span class="instruction-card__number" aria-hidden="true">1</span>
+            <h3>Prepare Your Sample</h3>
+            <p>Follow the relevant sample submission guidelines before visiting.</p>
+          </li>
+          <li class="card instruction-card">
+            <span class="instruction-card__number" aria-hidden="true">2</span>
+            <h3>Visit Our Melbourne Centre</h3>
+            <p>Use the location map to find the drop-off centre.</p>
+          </li>
+          <li class="card instruction-card">
+            <span class="instruction-card__number" aria-hidden="true">3</span>
+            <h3>Complete Your Submission</h3>
+            <p>Follow the centre's submission process when you arrive.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="map-section" class="section map-section" aria-labelledby="map-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="map-heading">Find Our Melbourne Drop-off Centre</h2>
+          <p>
+            Interactive map using sample demo location details. Replace values in
+            <code>script.js</code> when the real centre address is confirmed.
+          </p>
+        </div>
+
+        <div class="map-layout">
+          <div class="card map-info">
+            <h3 id="drop-off-name">Novogene Melbourne Sample Drop-off Centre (Sample)</h3>
+            <p class="map-info__address" id="drop-off-address">
+              Level 5, 120 Collins Street, Melbourne VIC 3000 (Sample address)
+            </p>
+            <p class="map-info__note" id="map-preview-note" hidden>
+              <span class="sample-tag">Sample</span>
+              This map uses example Melbourne CBD coordinates for the prototype demo.
+              It is not a verified drop-off centre location.
+            </p>
+
+            <div class="directions-panel">
+              <span class="directions-panel__label" id="origin-label">
+                Starting from
+              </span>
+
+              <div class="origin-dropdown" id="origin-dropdown">
+                <input
+                  type="hidden"
+                  id="directions-origin"
+                  value="Flinders Street Station, Melbourne VIC"
+                >
+                <button
+                  type="button"
+                  class="origin-dropdown__toggle"
+                  id="origin-dropdown-toggle"
+                  aria-haspopup="listbox"
+                  aria-expanded="false"
+                  aria-labelledby="origin-label origin-dropdown-toggle"
+                >
+                  <span class="origin-dropdown__icon" aria-hidden="true"></span>
+                  <span class="origin-dropdown__text" id="origin-dropdown-text">
+                    Flinders Street Station
+                  </span>
+                  <span class="origin-dropdown__chevron" aria-hidden="true"></span>
+                </button>
+                <ul
+                  class="origin-dropdown__menu"
+                  id="origin-dropdown-menu"
+                  role="listbox"
+                  aria-labelledby="origin-label"
+                  hidden
+                >
+                  <li role="option" tabindex="-1" data-value="Flinders Street Station, Melbourne VIC" data-label="Flinders Street Station" aria-selected="true">
+                    Flinders Street Station
+                  </li>
+                  <li role="option" tabindex="-1" data-value="Southern Cross Station, Melbourne VIC" data-label="Southern Cross Station" aria-selected="false">
+                    Southern Cross Station
+                  </li>
+                  <li role="option" tabindex="-1" data-value="Melbourne Central, Melbourne VIC" data-label="Melbourne Central" aria-selected="false">
+                    Melbourne Central
+                  </li>
+                  <li role="option" tabindex="-1" data-value="Federation Square, Melbourne VIC" data-label="Federation Square" aria-selected="false">
+                    Federation Square
+                  </li>
+                  <li role="option" tabindex="-1" data-value="Melbourne Airport, VIC" data-label="Melbourne Airport" aria-selected="false">
+                    Melbourne Airport
+                  </li>
+                  <li role="option" tabindex="-1" class="origin-dropdown__gps" data-value="__gps__" data-label="Use my current location (GPS)" aria-selected="false">
+                    Use my current location (GPS)
+                  </li>
+                </ul>
+              </div>
+
+              <button
+                type="button"
+                id="directions-btn"
+                class="btn btn--secondary"
+                aria-label="Show directions to the Melbourne drop-off centre on this map"
+              >
+                Get Directions
+              </button>
+              <button
+                type="button"
+                id="clear-route-btn"
+                class="btn btn--secondary"
+                hidden
+              >
+                Clear route
+              </button>
+              <p id="directions-status" class="directions-panel__status" role="status" hidden></p>
+            </div>
+          </div>
+
+          <div class="map-frame">
+            <div
+              id="map"
+              class="map-canvas"
+              role="region"
+              aria-label="Interactive map of the Melbourne sample drop-off centre"
+            ></div>
+            <div class="map-mascot-badge" aria-hidden="true">
+              <img src="assets/dr-novo-pin.svg" alt="" width="36" height="44">
+              <span>Dr. Novo (live marker)</span>
+            </div>
+            <div id="map-error" class="map-error" hidden role="alert">
+              <p>
+                Google Maps could not be loaded. Check your API key and network connection,
+                then refresh the page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before you visit -->
+    <section class="section before-visit" aria-labelledby="before-visit-heading">
+      <div class="container">
+        <div class="card before-visit__card">
+          <h2 id="before-visit-heading">Before You Visit</h2>
+          <dl class="info-list">
+            <div>
+              <dt>Sample preparation requirements</dt>
+              <dd>
+                <span class="sample-tag">Sample</span>
+                Package samples according to the Sample Submission Guidelines for your project type.
+              </dd>
+            </div>
+            <div>
+              <dt>Required documentation</dt>
+              <dd>
+                <span class="sample-tag">Sample</span>
+                Bring your project reference number and completed submission form.
+              </dd>
+            </div>
+            <div>
+              <dt>Drop-off operating hours</dt>
+              <dd>
+                <span class="sample-tag">Sample</span>
+                Monday to Friday, 9:00 am – 5:00 pm AEST (example hours).
+              </dd>
+            </div>
+            <div>
+              <dt>Contact information</dt>
+              <dd>
+                <span class="sample-tag">Sample</span>
+                Melbourne Drop-off Desk — melbourne.dropoff@example.novogene.com | +61 3 9000 0000
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <nav aria-label="Footer">
+        <a href="#">Sample Submission Guidelines</a>
+      </nav>
+      <p class="site-footer__contact">
+        Contact:
+        <span class="sample-tag">Sample</span>
+        melbourne.dropoff@example.novogene.com | +61 3 9000 0000
+      </p>
+      <p class="site-footer__copy">
+        &copy; <span id="copyright-year"></span>
+        Novogene (sample prototype). All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

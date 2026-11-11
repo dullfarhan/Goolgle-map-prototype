@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 78" role="img" aria-label="Dr. Novo map pin">
+  <!-- Pin shadow -->
+  <ellipse cx="32" cy="74" rx="10" ry="3" fill="#003366" opacity="0.18"/>
+  <!-- Pin point -->
+  <path d="M32 78 L22 52 H42 Z" fill="#43B149"/>
+  <!-- Head -->
+  <circle cx="32" cy="30" r="24" fill="#A2E53F"/>
+  <circle cx="32" cy="30" r="24" fill="none" stroke="#7BC22E" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="24" cy="28" r="4.5" fill="#1A1A1A"/>
+  <circle cx="40" cy="28" r="4.5" fill="#1A1A1A"/>
+  <circle cx="22.5" cy="26.5" r="1.5" fill="#fff"/>
+  <circle cx="38.5" cy="26.5" r="1.5" fill="#fff"/>
+  <!-- Smile -->
+  <path d="M26 36 Q32 41 38 36" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+  <!-- Antenna -->
+  <line x1="32" y1="8" x2="32" y2="2" stroke="#7BC22E" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="1" r="3.5" fill="#A2E53F" stroke="#7BC22E" stroke-width="1"/>
+  <!-- Tiny scarf -->
+  <path d="M14 42 C22 38 42 38 50 42 C48 48 40 50 32 49 C24 50 16 48 14 42 Z" fill="#F28C1D"/>
+</svg>
